@@ -1,8 +1,5 @@
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
+my:
+  gretting: Hello World
+  list:
+    values: One, Two, Three
+    
